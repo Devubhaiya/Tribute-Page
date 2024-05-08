@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="left-section">
+      <div id="tribute-info">
+        <h1>Albert Einstein</h1>
+        <img src="https://cdn.britannica.com/87/21087-050-ECAD622A/Albert-Einstein.jpg" alt="Albert Einstein">
+        <p>
+          Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two
+          pillars of modern physics. His work is also known for its influence on the philosophy of science.
+        </p>
+        <p>
+          For his contributions to theoretical physics, he was awarded the Nobel Prize in Physics in 1921.
+          Albert Einstein (born March 14, 1879, Ulm, Württemberg, Germany—died April 18, 1955, Princeton, New Jersey,
+          U.S.) German-born physicist who developed the special and general theories of relativity and won the Nobel
+          Prize for Physics in 1921 for his explanation of the photoelectric effect.
+        </p>
+        <button id="show-more-btn">Show More</button>
+        <div id="additional-info" style="display: none;">
+          <h2>Additional Information</h2>
+          <p>
+            Einstein was born on March 14, 1879, in Ulm, in the Kingdom of Württemberg in the German Empire.
+          </p>
+          <p>
+            He immigrated to the United States in 1933, where he took up a position at the Institute for Advanced Study
+            in Princeton, New Jersey.
+          </p>
+        </div>
+
+        <h2>Comments</h2>
+        <div id="comments-container">
+          <input type="text" id="comment-input" placeholder="Leave a comment">
+          <button id="submit-comment-btn">Submit</button>
+          <ul id="comments-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-section">
+      Albert Einstein (born March 14, 1879, Ulm, Württemberg, Germany—died April 18, 1955, Princeton, New Jersey, U.S.)
+      German-born physicist who developed the special and general theories of relativity and won the Nobel Prize for
+      Physics in 1921 for his explanation of the photoelectric effect. 
+    </div>
+  </div>
+
+
+  <footer class="bg-white-100 py-6 px-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <p class="text-gray-600 text-sm font-semibold tracking-tight">&copy; 2024 Tribute Page. All rights reserved.</p>
+      <ul class="flex items-center">
+        <li>
+          <a href="#" class="px-3 py-2 rounded-md font-semibold text-gray-700 hover:text-gray-800">Facebook</a>
+        </li>
+        <li>
+          <a href="#" class="px-3 py-2 rounded-md font-semibold text-gray-700 hover:text-gray-800">Twitter</a>
+        </li>
+        <li>
+          <a href="#" class="px-3 py-2 rounded-md font-semibold text-gray-700 hover:text-gray-800">Instagram</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
